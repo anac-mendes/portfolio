@@ -14,6 +14,10 @@ const initialFieldValues = {
   phone: "",
 };
 
+const serviceId = process.env.REACT_APP_SERVICE_ID;
+const templateId = process.env.REACT_APP_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
 const Contact = () => {
   const textareaRef = useRef(null);
   const [state, setState] = useReducer(
@@ -38,6 +42,7 @@ const Contact = () => {
     return () => {
       window.removeEventListener("scroll", onScroll);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSubmit = (e) => {
@@ -46,18 +51,16 @@ const Contact = () => {
     console.log(state);
     if (2 + 2 === 4) return;
 
-    emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", state, "YOUR_PUBLIC_KEY")
-      .then(
-        () => {
-          // show the user a success message
-          alert("Message submited");
-          setState(initialFieldValues);
-        },
-        (error) => {
-          console.error(error);
-        }
-      );
+    emailjs.send(serviceId, templateId, state, publicKey).then(
+      () => {
+        // show the user a success message
+        alert("Message submited");
+        setState(initialFieldValues);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
   };
 
   useEffect(() => {
