@@ -16,6 +16,8 @@ jobs:
           node-version: 16
       - name: Install dependencies
         run: yarn install
+      - name: Run Build
+        run: npm run build
       - name: Deploy with gh-pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
