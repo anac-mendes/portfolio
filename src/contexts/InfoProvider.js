@@ -1,0 +1,135 @@
+import React, { createContext, useContext, useReducer } from "react";
+// import PropTypes from "prop-types";
+
+import profilePic from "../assets/profilepic.jpeg";
+import resume from "../assets/resume.pdf";
+
+// Images
+import image01 from "../assets/projects/1.png";
+import image02 from "../assets/projects/2.png";
+import image03 from "../assets/projects/3.png";
+import image04 from "../assets/projects/4.png";
+// import image05 from "../assets/projects/5.png";
+
+const initialSize = {
+  home: 0,
+  about: 0,
+  portfolio: 0,
+  contact: 0,
+};
+
+const InfoContext = createContext({
+  info: {},
+  sizes: {},
+});
+
+function InfoProvider({ children }) {
+  const [sizes, setSizes] = useReducer(
+    (oldState, newState) => ({ ...initialSize, ...newState }),
+    initialSize
+  );
+
+  function importAll(r) {
+    let images = {};
+    r.keys().forEach((item, index) => {
+      images[item.replace("./", "")] = r(item);
+    });
+    return images;
+  }
+
+  const info = {
+    name: "Ana Carolina Mendes",
+    resume,
+    projectName: "Title Ana Project",
+    description:
+      "I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    profilePic,
+    bio: "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    contactMessage:
+      "Here is where you should write your message to readers to have them get in contact with you.",
+    email: "ac.anamendes@gmail.com ",
+    phone: "(250) 986-0158",
+    address: {
+      street: "(Your Street)", // I dont think that's needed
+      city: "Victoria",
+      state: "BC",
+      zip: "(Your Zip/Postal Code)", // I dont think that's needed
+    },
+    projects: [
+      {
+        title: "Social Media Branding",
+        textHover: "Social Media Branding",
+        image: image01,
+        workName: "social-media-branding",
+        children: importAll(
+          require.context(
+            "../assets/social-media-branding",
+            false,
+            /\.(png|jpe?g|svg)$/
+          )
+        ),
+        isVideo: false,
+      },
+      {
+        title: "Social Media Posts",
+        textHover: "Social Media Posts",
+        image: image02,
+        workName: "social-media-posts",
+        children: importAll(
+          require.context(
+            "../assets/social-media-posts",
+            false,
+            /\.(png|jpe?g|svg)$/
+          )
+        ),
+        isVideo: false,
+      },
+      {
+        title: "Flyers",
+        textHover: "Flyers",
+        image: image03,
+        workName: "flyers",
+        children: importAll(
+          require.context("../assets/flyers", false, /\.(png|jpe?g|svg)$/)
+        ),
+        isVideo: false,
+      },
+      {
+        title: "Web Design",
+        textHover: "Web Design",
+        image: image04,
+        workName: "web-design",
+        children: importAll(
+          require.context("../assets/web-design", false, /\.(mp4)$/)
+        ),
+        isVideo: true,
+      },
+      // {
+      //   title: "Resume Website 22",
+      //   textHover: "A React based resume website template 2",
+      //   image: image05,
+      //   workName: "website",
+      // },
+    ],
+  };
+
+  return (
+    <InfoContext.Provider value={{ info, sizes, setSizes }}>
+      {children}
+    </InfoContext.Provider>
+  );
+}
+
+function useInfos() {
+  const context = useContext(InfoContext);
+  if (context === undefined) {
+    throw new Error("useFilter must be used within a InfoProvider");
+  }
+  return context;
+}
+
+// InfoProvider.propTypes = {
+//   children: PropTypes.any.isRequired,
+// };
+
+export { InfoProvider, useInfos };
