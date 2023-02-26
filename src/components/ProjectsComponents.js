@@ -8,7 +8,7 @@ const ProjectsComponents = ({ item }) => {
   const navigate = useNavigate();
 
   const handleOnClick = (event) => {
-    const destination = `/work/${item.workName}`;
+    const destination = `/new-portfolio/work/${item.workName}`;
     openLink(event, destination, navigate);
   };
 
