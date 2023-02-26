@@ -56,25 +56,25 @@ const Header = ({ children }) => {
 
         <ul id="nav" className="nav" ref={refNav}>
           <li className="current" ref={homeRef} id="#homeRef">
-            <HashLink smooth to="/new-portfolio#home">
+            <HashLink smooth to="/#home">
               Home
             </HashLink>
           </li>
 
           <li ref={aboutRef} id="#aboutRef">
-            <HashLink smooth to="/new-portfolio#about">
+            <HashLink smooth to="/#about">
               About
             </HashLink>
           </li>
 
           <li ref={portfolioRef} id="#portfolioRef">
-            <HashLink smooth to="/new-portfolio#portfolio">
+            <HashLink smooth to="/#portfolio">
               Works
             </HashLink>
           </li>
 
           <li ref={contactRef} id="#contactRef">
-            <HashLink smooth to="/new-portfolio#contact">
+            <HashLink smooth to="/#contact">
               Contact
             </HashLink>
           </li>
