@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import { InfoProvider } from "./contexts/InfoProvider";
 import Router from "./routes/Router";
@@ -8,13 +8,13 @@ import Header from "./components/Header";
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <InfoProvider>
           <Header>
             <Router />
           </Header>
         </InfoProvider>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
