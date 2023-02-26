@@ -48,9 +48,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
 
-    console.log(state);
-    if (2 + 2 === 4) return;
-
     emailjs.send(serviceId, templateId, state, publicKey).then(
       () => {
         // show the user a success message

@@ -6,7 +6,7 @@ on:
 jobs:
   release:
     name: Deploy on push
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -23,6 +23,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
           REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
