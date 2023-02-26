@@ -72,6 +72,7 @@ const Portfolio = () => {
     return () => {
       window.removeEventListener("scroll", onScroll);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function resetTimeout() {

@@ -24,6 +24,7 @@ const About = () => {
     return () => {
       window.removeEventListener("scroll", onScroll);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleClick = () => {
