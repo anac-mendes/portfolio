@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/new-portfolio/static/js/main.d097b6a1.js",
+    "main.js": "/new-portfolio/static/js/main.cb579e17.js",
     "static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.mp4": "/new-portfolio/static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.7b4116e06ddee3318e99.mp4",
     "static/media/4.png": "/new-portfolio/static/media/4.184d47ca33b23af5dbac.png",
     "static/media/16.png": "/new-portfolio/static/media/16.9a5d2cd8249b4c4dc9cd.png",
@@ -24,9 +24,9 @@
     "static/media/profilepic.jpeg": "/new-portfolio/static/media/profilepic.86518318ae03a8d5350f.jpeg",
     "static/media/5.png": "/new-portfolio/static/media/5.b7e1b5aa5b7871af1365.png",
     "index.html": "/new-portfolio/index.html",
-    "main.d097b6a1.js.map": "/new-portfolio/static/js/main.d097b6a1.js.map"
+    "main.cb579e17.js.map": "/new-portfolio/static/js/main.cb579e17.js.map"
   },
   "entrypoints": [
-    "static/js/main.d097b6a1.js"
+    "static/js/main.cb579e17.js"
   ]
 }
