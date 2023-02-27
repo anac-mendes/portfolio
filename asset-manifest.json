@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/new-portfolio/static/js/main.cb579e17.js",
+    "main.js": "/new-portfolio/static/js/main.c7685255.js",
     "static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.mp4": "/new-portfolio/static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.7b4116e06ddee3318e99.mp4",
     "static/media/4.png": "/new-portfolio/static/media/4.184d47ca33b23af5dbac.png",
     "static/media/16.png": "/new-portfolio/static/media/16.9a5d2cd8249b4c4dc9cd.png",
@@ -18,15 +18,15 @@
     "static/media/2.png": "/new-portfolio/static/media/2.c8de4b7054662295e10c.png",
     "static/media/row-2-column-2.png": "/new-portfolio/static/media/row-2-column-2.240556d5179e19da4b7f.png",
     "static/media/screencapture-instagram-westshoreortho-2023-01-16-14_55_29.png": "/new-portfolio/static/media/screencapture-instagram-westshoreortho-2023-01-16-14_55_29.3a16f120e0e1d4562206.png",
-    "static/media/resume.pdf": "/new-portfolio/static/media/resume.b389c77ce0542ef7901a.pdf",
     "static/media/renzoku.png": "/new-portfolio/static/media/renzoku.479fe5dbd9c624bc73eb.png",
     "static/media/11.png": "/new-portfolio/static/media/11.933073860b52455ee968.png",
+    "static/media/resume.pdf": "/new-portfolio/static/media/resume.343e0c86682a022e97a9.pdf",
     "static/media/profilepic.jpeg": "/new-portfolio/static/media/profilepic.86518318ae03a8d5350f.jpeg",
     "static/media/5.png": "/new-portfolio/static/media/5.b7e1b5aa5b7871af1365.png",
     "index.html": "/new-portfolio/index.html",
-    "main.cb579e17.js.map": "/new-portfolio/static/js/main.cb579e17.js.map"
+    "main.c7685255.js.map": "/new-portfolio/static/js/main.c7685255.js.map"
   },
   "entrypoints": [
-    "static/js/main.cb579e17.js"
+    "static/js/main.c7685255.js"
   ]
 }
