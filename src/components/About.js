@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import Fade from "react-reveal";
 import FileSaver from "file-saver";
+import { HashLink } from "react-router-hash-link";
 
 import Grid from "@mui/material/Grid";
 
@@ -49,19 +50,6 @@ const About = () => {
             <h2>About Me</h2>
 
             <p>{bio}</p>
-            {/* <div className="columns contact-details">
-              <h2>Contact Details</h2>
-              <p className="address">
-                <span>{name}</span>
-                <span>
-                  {city} {state}
-                </span>
-                <br />
-                <span>{phone}</span>
-                <br />
-                <span>{email}</span>
-              </p>
-            </div> */}
             <Grid container item xs={12}>
               <Grid item xs={12} md={7}>
                 <h2>Contact Details</h2>
@@ -91,46 +79,15 @@ const About = () => {
                 </button>
               </Grid>
             </Grid>
-            {/* <div className="columns download">
-              <button className="button" onClick={handleClick}>
-                <i className="fa fa-download"></i>Download Resume
-              </button>
-            </div> */}
           </Grid>
         </Grid>
       </Fade>
-      {/* <Fade duration={1000}>
-        <div className="row">
-          <div className="three columns">
-            <img className="profile-pic" src={profilePic} alt="Profile" />
-          </div>
-          <div className="nine columns main-col">
-            <h2>About Me</h2>
 
-            <p>{bio}</p>
-            <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{name}</span>
-                  <span>
-                    {city} {state}
-                  </span>
-                  <br />
-                  <span>{phone}</span>
-                  <br />
-                  <span>{email}</span>
-                </p>
-              </div>
-              <div className="columns download">
-                <button className="button" onClick={handleClick}>
-                  <i className="fa fa-download"></i>Download Resume
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Fade> */}
+      <p className="scrolldown">
+        <HashLink smooth to="/#portfolio">
+          <i className="icon-down-circle"></i>
+        </HashLink>
+      </p>
     </section>
   );
 };

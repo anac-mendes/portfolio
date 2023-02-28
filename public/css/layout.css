@@ -99,7 +99,7 @@ body {
 }
 
 /* scrolldown link */
-#home .scrolldown a {
+.scrolldown a {
   position: absolute;
   bottom: 30px;
   left: 50%;
@@ -118,7 +118,7 @@ body {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#home .scrolldown a:hover {
+.scrolldown a:hover {
   color: #a8dadc;
 }
 
@@ -213,6 +213,7 @@ ul#nav li.current a {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #about a,

@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Fade from "react-reveal";
-import { useInfos } from "../contexts/InfoProvider";
+import { HashLink } from "react-router-hash-link";
 
+import { useInfos } from "../contexts/InfoProvider";
 import Particles from "./Particles";
 
 const settings = {
@@ -79,9 +80,9 @@ const Presentation = () => {
       </div>
 
       <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+        <HashLink smooth to="/#about">
           <i className="icon-down-circle"></i>
-        </a>
+        </HashLink>
       </p>
     </section>
   );
