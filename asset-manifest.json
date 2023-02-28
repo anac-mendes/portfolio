@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/new-portfolio/static/js/main.c7685255.js",
+    "main.js": "/new-portfolio/static/js/main.0259e897.js",
     "static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.mp4": "/new-portfolio/static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.7b4116e06ddee3318e99.mp4",
     "static/media/4.png": "/new-portfolio/static/media/4.184d47ca33b23af5dbac.png",
     "static/media/16.png": "/new-portfolio/static/media/16.9a5d2cd8249b4c4dc9cd.png",
@@ -13,6 +13,7 @@
     "static/media/Smartligh.mp4": "/new-portfolio/static/media/Smartligh.514ab0771103efab978f.mp4",
     "static/media/row-1-column-1 - Copy.png": "/new-portfolio/static/media/row-1-column-1 - Copy.c82ee90a838e0f09cde3.png",
     "static/media/1.jpg": "/new-portfolio/static/media/1.7aed37f484a5c4482172.jpg",
+    "static/media/profilepic.png": "/new-portfolio/static/media/profilepic.7527dbac0eb328dcedfd.png",
     "static/media/blogpost.png": "/new-portfolio/static/media/blogpost.84d08c219b30613df4d0.png",
     "static/media/APPLYNOW.png": "/new-portfolio/static/media/APPLYNOW.0637edf089eb0039bb7d.png",
     "static/media/2.png": "/new-portfolio/static/media/2.c8de4b7054662295e10c.png",
@@ -21,12 +22,11 @@
     "static/media/renzoku.png": "/new-portfolio/static/media/renzoku.479fe5dbd9c624bc73eb.png",
     "static/media/11.png": "/new-portfolio/static/media/11.933073860b52455ee968.png",
     "static/media/resume.pdf": "/new-portfolio/static/media/resume.343e0c86682a022e97a9.pdf",
-    "static/media/profilepic.jpeg": "/new-portfolio/static/media/profilepic.86518318ae03a8d5350f.jpeg",
     "static/media/5.png": "/new-portfolio/static/media/5.b7e1b5aa5b7871af1365.png",
     "index.html": "/new-portfolio/index.html",
-    "main.c7685255.js.map": "/new-portfolio/static/js/main.c7685255.js.map"
+    "main.0259e897.js.map": "/new-portfolio/static/js/main.0259e897.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7685255.js"
+    "static/js/main.0259e897.js"
   ]
 }
