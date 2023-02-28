@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useReducer } from "react";
 // import PropTypes from "prop-types";
 
-import profilePic from "../assets/profilepic.jpeg";
+import profilePic from "../assets/profilepic.png";
 import resume from "../assets/resume.pdf";
 
 // Images
@@ -40,11 +40,12 @@ function InfoProvider({ children }) {
   const info = {
     name: "Ana Carolina Mendes",
     resume,
-    projectName: "Title Ana Project",
+    projectName: "Hello!",
     description:
-      "I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+      "I'm Ana, a Graphic Designer & Social Media Strategist.",
     profilePic,
-    bio: "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    bio: "I'm a creator content based on Victoria, BC and passionate about designing pieces that are creative and effective. My journey with digital marketing started as a hobby when I was a teenage, which lead me to several volunteer work in marketing during my bachelor's. After my graduation, I invested my time in digital marketing courses and I fell in love in how digital marketing strategies can open so many opportunities for businesses. 
+          My goal is to help to improve social media presence by developing fresh concepts for creating graphic content in line with the company's goals.",
     contactMessage:
       "Here is where you should write your message to readers to have them get in contact with you.",
     email: "ac.anamendes@gmail.com ",
