@@ -41,11 +41,9 @@ function InfoProvider({ children }) {
     name: "Ana Carolina Mendes",
     resume,
     projectName: "Hello!",
-    description:
-      "I'm Ana, a Graphic Designer & Social Media Strategist.",
+    description: "I'm Ana, a Graphic Designer & Social Media Strategist.",
     profilePic,
-    bio: "I'm a creator content based on Victoria, BC and passionate about designing pieces that are creative and effective. My journey with digital marketing started as a hobby when I was a teenage, which lead me to several volunteer work in marketing during my bachelor's. After my graduation, I invested my time in digital marketing courses and I fell in love in how digital marketing strategies can open so many opportunities for businesses. 
-          My goal is to help to improve social media presence by developing fresh concepts for creating graphic content in line with the company's goals.",
+    bio: "I'm a creator content based on Victoria, BC and passionate about designing pieces that are creative and effective. My journey with digital marketing started as a hobby when I was a teenage, which lead me to several volunteer work in marketing during my bachelor's. After my graduation, I invested my time in digital marketing courses and I fell in love in how digital marketing strategies can open so many opportunities for businesses. My goal is to help to improve social media presence by developing fresh concepts for creating graphic content in line with the company's goals.",
     contactMessage:
       "Here is where you should write your message to readers to have them get in contact with you.",
     email: "ac.anamendes@gmail.com ",
