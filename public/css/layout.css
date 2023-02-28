@@ -233,14 +233,15 @@ ul#nav li.current a {
   line-height: 30px;
   color: #ccc;
 }
-#about .profile-pic {
+/* #about .profile-pic {
   position: relative;
   width: 120px;
   height: 120px;
   border-radius: 100%;
-}
+} */
 #about .contact-details {
-  width: 41.66667%;
+  /* width: 41.66667%; */
+  padding: 0;
 }
 #about .download {
   width: 58.33333%;
@@ -259,6 +260,18 @@ ul#nav li.current a {
 }
 #about .download .button i {
   margin-right: 15px;
+  font-size: 20px;
+}
+
+#about .buttomDownload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  gap: 5px;
+}
+
+#about .buttomDownload i {
   font-size: 20px;
 }
 
