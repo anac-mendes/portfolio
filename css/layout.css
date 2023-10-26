@@ -268,8 +268,9 @@ ul#nav li.current a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 12px;
   gap: 5px;
+  border-radius: 5px;
 }
 
 #about .buttomDownload i {
@@ -641,7 +642,7 @@ call-to-action .button {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .flex-control-paging li a {
   width: 12px;

@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/new-portfolio/static/js/main.425141ae.js",
+    "main.js": "/new-portfolio/static/js/main.3f06eb8f.js",
     "static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.mp4": "/new-portfolio/static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.7b4116e06ddee3318e99.mp4",
-    "static/media/4.png": "/new-portfolio/static/media/4.184d47ca33b23af5dbac.png",
+    "static/media/4.png": "/new-portfolio/static/media/4.8af3eeb9546dd948693e.png",
     "static/media/16.png": "/new-portfolio/static/media/16.9a5d2cd8249b4c4dc9cd.png",
-    "static/media/3.png": "/new-portfolio/static/media/3.4be910ca65773731c831.png",
+    "static/media/3.png": "/new-portfolio/static/media/3.e6d7efabe19a4f12e962.png",
     "static/media/mockuppbhoakbay.png": "/new-portfolio/static/media/mockuppbhoakbay.b83a65dab9618f45fb58.png",
-    "static/media/1.png": "/new-portfolio/static/media/1.43d9de8e7f0f15d193f9.png",
+    "static/media/1.png": "/new-portfolio/static/media/1.27684601a3cea2f4968a.png",
     "static/media/7.png": "/new-portfolio/static/media/7.780acba4840f16298301.png",
     "static/media/6.png": "/new-portfolio/static/media/6.3904b2699436da81c7c0.png",
     "static/media/d3.png": "/new-portfolio/static/media/d3.c899ba62901b2760aeea.png",
@@ -15,18 +15,23 @@
     "static/media/1.jpg": "/new-portfolio/static/media/1.7aed37f484a5c4482172.jpg",
     "static/media/profilepic.png": "/new-portfolio/static/media/profilepic.7527dbac0eb328dcedfd.png",
     "static/media/blogpost.png": "/new-portfolio/static/media/blogpost.84d08c219b30613df4d0.png",
+    "static/media/resume.pdf": "/new-portfolio/static/media/resume.a28caff327ada8a4b5ee.pdf",
     "static/media/APPLYNOW.png": "/new-portfolio/static/media/APPLYNOW.0637edf089eb0039bb7d.png",
-    "static/media/2.png": "/new-portfolio/static/media/2.c8de4b7054662295e10c.png",
+    "static/media/2.png": "/new-portfolio/static/media/2.e82d6bc207272bf2d99e.png",
     "static/media/row-2-column-2.png": "/new-portfolio/static/media/row-2-column-2.240556d5179e19da4b7f.png",
     "static/media/screencapture-instagram-westshoreortho-2023-01-16-14_55_29.png": "/new-portfolio/static/media/screencapture-instagram-westshoreortho-2023-01-16-14_55_29.3a16f120e0e1d4562206.png",
     "static/media/renzoku.png": "/new-portfolio/static/media/renzoku.479fe5dbd9c624bc73eb.png",
     "static/media/11.png": "/new-portfolio/static/media/11.933073860b52455ee968.png",
-    "static/media/resume.pdf": "/new-portfolio/static/media/resume.343e0c86682a022e97a9.pdf",
+    "static/media/social-media-branding.png": "/new-portfolio/static/media/social-media-branding.43d9de8e7f0f15d193f9.png",
+    "static/media/social-media-posts.png": "/new-portfolio/static/media/social-media-posts.c8de4b7054662295e10c.png",
+    "static/media/web-design.png": "/new-portfolio/static/media/web-design.184d47ca33b23af5dbac.png",
+    "static/media/seo.png": "/new-portfolio/static/media/seo.ff7bd4704ea5a4737982.png",
     "static/media/5.png": "/new-portfolio/static/media/5.b7e1b5aa5b7871af1365.png",
+    "static/media/flyers.png": "/new-portfolio/static/media/flyers.4be910ca65773731c831.png",
     "index.html": "/new-portfolio/index.html",
-    "main.425141ae.js.map": "/new-portfolio/static/js/main.425141ae.js.map"
+    "main.3f06eb8f.js.map": "/new-portfolio/static/js/main.3f06eb8f.js.map"
   },
   "entrypoints": [
-    "static/js/main.425141ae.js"
+    "static/js/main.3f06eb8f.js"
   ]
 }
