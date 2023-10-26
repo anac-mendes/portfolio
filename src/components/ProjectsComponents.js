@@ -10,6 +10,7 @@ const ProjectsComponents = ({ item }) => {
   const handleOnClick = (event) => {
     const destination = `/work/${item.workName}`;
     openLink(event, destination, navigate);
+    window.scrollTo(0, 0);
   };
 
   return (

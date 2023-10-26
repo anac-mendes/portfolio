@@ -5,11 +5,11 @@ import profilePic from "../assets/profilepic.png";
 import resume from "../assets/resume.pdf";
 
 // Images
-import image01 from "../assets/projects/1.png";
-import image02 from "../assets/projects/2.png";
-import image03 from "../assets/projects/3.png";
-import image04 from "../assets/projects/4.png";
-// import image05 from "../assets/projects/5.png";
+import image01 from "../assets/projects/social-media-branding.png";
+import image02 from "../assets/projects/social-media-posts.png";
+import image03 from "../assets/projects/flyers.png";
+import image04 from "../assets/projects/web-design.png";
+import image05 from "../assets/projects/seo.png";
 
 const initialSize = {
   home: 0,
@@ -100,6 +100,16 @@ function InfoProvider({ children }) {
         workName: "web-design",
         children: importAll(
           require.context("../assets/web-design", false, /\.(mp4)$/)
+        ),
+        isVideo: true,
+      },
+      {
+        title: "SEO",
+        textHover: "SEO",
+        image: image05,
+        workName: "seo",
+        children: importAll(
+          require.context("../assets/seo", false, /\.(mp4)$/)
         ),
         isVideo: true,
       },

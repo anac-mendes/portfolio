@@ -69,7 +69,7 @@ const Header = ({ children }) => {
 
           <li ref={portfolioRef} id="#portfolioRef">
             <HashLink smooth to="/#portfolio">
-              Works
+              Portfolio
             </HashLink>
           </li>
 
