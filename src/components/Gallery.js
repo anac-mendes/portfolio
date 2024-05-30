@@ -11,6 +11,24 @@ const Gallery = () => {
 
   const selected = projects.find((row) => row.workName === workName);
 
+  // Function to decode HTML entities
+  function decodeHTMLEntities(text) {
+    const textarea = document.createElement('textarea');
+    textarea.innerHTML = text;
+    return textarea.value;
+  }
+
+  // Function to ensure the URL is properly formatted
+  function getFormattedURL(encodedURL) {
+    const decodedURL = decodeHTMLEntities(encodedURL);
+    // Ensure the URL has a proper protocol
+    if (!/^https?:\/\//i.test(decodedURL)) {
+      return `https://${decodedURL}`;
+    }
+
+    return decodedURL;
+  }
+
   return (
     <section id="portfolio">
       <Fade bottom duration={1000}>
@@ -39,6 +57,19 @@ const Gallery = () => {
                 </video>
               </Fragment>
             ))}
+        </div>
+
+        <div>
+          {selected.embeded && (
+            <div className="container-iframe">
+              <iframe 
+                title="Title" 
+                loading="lazy" 
+                className="iframe-class"
+                src={getFormattedURL(selected.embeded)}
+              />
+            </div>
+                )}
         </div>
       </Fade>
     </section>

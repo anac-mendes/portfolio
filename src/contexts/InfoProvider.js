@@ -109,16 +109,11 @@ function InfoProvider({ children }) {
         image: image05,
         workName: "seo",
         children: importAll(
-          require.context("../assets/seo", false, /\.(mp4)$/)
+          require.context("../assets/seo", false, /\.(png|jpe?g|svg)$/)
         ),
-        isVideo: true,
+        isVideo: false,
+        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGEh-79W8&#x2F;RR3eKGRjSZqrO-Ihrxrn1A&#x2F;view?embed'
       },
-      // {
-      //   title: "Resume Website 22",
-      //   textHover: "A React based resume website template 2",
-      //   image: image05,
-      //   workName: "website",
-      // },
     ],
   };
 
