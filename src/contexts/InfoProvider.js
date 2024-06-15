@@ -68,6 +68,7 @@ function InfoProvider({ children }) {
           )
         ),
         isVideo: false,
+        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGIPrCZG68&#x2F;0zyEdi0HBLZFiohwpO7_CQ&#x2F;view?embed'
       },
       {
         title: "Social Media Posts",
@@ -82,6 +83,7 @@ function InfoProvider({ children }) {
           )
         ),
         isVideo: false,
+        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGIPjCBR28&#x2F;eRkK3KZ-3LI3N5nIEihEFg&#x2F;view?embed'
       },
       {
         title: "Flyers",
