@@ -329,8 +329,60 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 60px;
 }
+
+#portfolio .container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#portfolio .container-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+#portfolio .container-category {
+  display: flex;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#portfolio .container-category .categories {
+  cursor: pointer;
+  line-height: 2rem;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 2em;
+  background: rgba(255,255, 255, 0.1);
+  width: 200px;
+  height: 170px;
+  align-content: center;
+  -webkit-box-shadow: 0px 10px 35px -10px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 10px 35px -10px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 10px 35px -10px rgba(0, 0, 0, 0.17);
+}
+
+#portfolio .container-category .categories:hover {
+  background-color: #6ec0cd;
+  color: #fff;
+  font-weight: 500;
+}
+
+#portfolio .contaienr-img {
+  display: block;
+  margin-bottom: 10px;
+}
+
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
+  font-size: 1.3em;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;

@@ -1,23 +1,12 @@
 {
   "files": {
-    "main.js": "/new-portfolio/static/js/main.c478b6a3.js",
-    "static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.mp4": "/new-portfolio/static/media/Renzoku Tech School _ Web Development _ Victoria - Google Chrome 2023-01-18 11-14-52.7b4116e06ddee3318e99.mp4",
-    "static/media/3.png": "/new-portfolio/static/media/3.3c4ab126db3755d87ab5.png",
+    "main.js": "/new-portfolio/static/js/main.e898ea8a.js",
     "static/media/profilepic.png": "/new-portfolio/static/media/profilepic.0d42297bef85d6b59c03.png",
-    "static/media/Smartligh.mp4": "/new-portfolio/static/media/Smartligh.514ab0771103efab978f.mp4",
-    "static/media/1.jpg": "/new-portfolio/static/media/1.7aed37f484a5c4482172.jpg",
     "static/media/resume.pdf": "/new-portfolio/static/media/resume.a28caff327ada8a4b5ee.pdf",
-    "static/media/2.png": "/new-portfolio/static/media/2.e82d6bc207272bf2d99e.png",
-    "static/media/6.png": "/new-portfolio/static/media/6.3904b2699436da81c7c0.png",
-    "static/media/social-media-branding.png": "/new-portfolio/static/media/social-media-branding.43d9de8e7f0f15d193f9.png",
-    "static/media/social-media-posts.png": "/new-portfolio/static/media/social-media-posts.c8de4b7054662295e10c.png",
-    "static/media/web-design.png": "/new-portfolio/static/media/web-design.184d47ca33b23af5dbac.png",
-    "static/media/seo.png": "/new-portfolio/static/media/seo.ff7bd4704ea5a4737982.png",
-    "static/media/flyers.png": "/new-portfolio/static/media/flyers.4be910ca65773731c831.png",
     "index.html": "/new-portfolio/index.html",
-    "main.c478b6a3.js.map": "/new-portfolio/static/js/main.c478b6a3.js.map"
+    "main.e898ea8a.js.map": "/new-portfolio/static/js/main.e898ea8a.js.map"
   },
   "entrypoints": [
-    "static/js/main.c478b6a3.js"
+    "static/js/main.e898ea8a.js"
   ]
 }
