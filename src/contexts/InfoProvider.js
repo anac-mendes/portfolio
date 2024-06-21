@@ -5,11 +5,16 @@ import profilePic from "../assets/profilepic.png";
 import resume from "../assets/resume.pdf";
 
 // Images
-import image01 from "../assets/projects/social-media-branding.png";
-import image02 from "../assets/projects/social-media-posts.png";
-import image03 from "../assets/projects/flyers.png";
-import image04 from "../assets/projects/web-design.png";
-import image05 from "../assets/projects/seo.png";
+import gallery from "../assets/svg/Gallery.js";
+import square from "../assets/svg/Square.js";
+import Document from "../assets/svg/Document.js";
+import laptop from "../assets/svg/Laptop.js";
+import play from "../assets/svg/Play.js"; 
+// import image01 from "../assets/projects/social-media-branding.png";
+// import image02 from "../assets/projects/social-media-posts.png";
+// import image03 from "../assets/projects/flyers.png";
+// import image04 from "../assets/projects/web-design.png";
+// import image05 from "../assets/projects/seo.png";
 
 const initialSize = {
   home: 0,
@@ -56,13 +61,13 @@ function InfoProvider({ children }) {
     },
     projects: [
       {
-        title: "Social Media Branding",
-        textHover: "Social Media Branding",
-        image: image01,
-        workName: "social-media-branding",
+        title: "Print & Digital Media",
+        textHover: "Print & Digital Media",
+        image: gallery,
+        workName: "print-digital-media",
         children: importAll(
           require.context(
-            "../assets/social-media-branding",
+            "../assets/print_and_media",
             false,
             /\.(png|jpe?g|svg)$/
           )
@@ -71,13 +76,13 @@ function InfoProvider({ children }) {
         embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGIPrCZG68&#x2F;0zyEdi0HBLZFiohwpO7_CQ&#x2F;view?embed'
       },
       {
-        title: "Social Media Posts",
-        textHover: "Social Media Posts",
-        image: image02,
-        workName: "social-media-posts",
+        title: "Social Media",
+        textHover: "Social Media",
+        image: square,
+        workName: "social-media",
         children: importAll(
           require.context(
-            "../assets/social-media-posts",
+            "../assets/social-media",
             false,
             /\.(png|jpe?g|svg)$/
           )
@@ -86,35 +91,37 @@ function InfoProvider({ children }) {
         embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGIPjCBR28&#x2F;eRkK3KZ-3LI3N5nIEihEFg&#x2F;view?embed'
       },
       {
-        title: "Flyers",
-        textHover: "Flyers",
-        image: image03,
-        workName: "flyers",
+        title: "Marketing Materials",
+        textHover: "Marketing Materials",
+        image: Document,
+        workName: "marketing-materials",
         children: importAll(
-          require.context("../assets/flyers", false, /\.(png|jpe?g|svg)$/)
+          require.context("../assets/marketing_materials", false, /\.(png|jpe?g|svg)$/)
         ),
         isVideo: false,
+        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGIuH9wmLA&#x2F;cycpHJb4GgHxpgeUBRPepQ&#x2F;view?embed'
       },
       {
         title: "Web Design",
         textHover: "Web Design",
-        image: image04,
+        image: laptop,
         workName: "web-design",
         children: importAll(
           require.context("../assets/web-design", false, /\.(mp4)$/)
         ),
         isVideo: true,
+        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGItzsUADA&#x2F;i1862CwF4lkDAk77GUCjkA&#x2F;view?embed'
       },
       {
-        title: "SEO",
-        textHover: "SEO",
-        image: image05,
-        workName: "seo",
+        title: "Video Content",
+        textHover: "Video Content",
+        image: play,
+        workName: "video-content",
         children: importAll(
-          require.context("../assets/seo", false, /\.(png|jpe?g|svg)$/)
+          require.context("../assets/video_content", false, /\.(png|jpe?g|svg)$/)
         ),
         isVideo: false,
-        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGEh-79W8&#x2F;RR3eKGRjSZqrO-Ihrxrn1A&#x2F;view?embed'
+        embeded: 'https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGItod1H1o&#x2F;Vo4WxruGjBH6LtVg74ZgJQ&#x2F;view?embed'
       },
     ],
   };

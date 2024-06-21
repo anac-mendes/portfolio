@@ -100,7 +100,13 @@ const Portfolio = () => {
     <section id="portfolio" ref={sectionRef}>
       <Fade left duration={1000}>
         <h1 style={{ fontSize: "1.3em" }}>Check Out Some of My Works</h1>
-        <div className="slideshow">
+        <div className="container-projects">
+
+          {projects.map((row) => (
+            <ProjectsComponents item={row} key={`${row.title}_${row.image}`}/>
+          ))}
+        </div>
+        {/* <div className="slideshow">
           <SlideShow className="slideshowSlider" index={indexImg}>
             {projects.map((row) => (
               <ContainerImg key={`${row.title}_${row.image}`}>
@@ -122,7 +128,7 @@ const Portfolio = () => {
               )
             )}
           </div>
-        </div>
+        </div> */}
       </Fade>
     </section>
   );
