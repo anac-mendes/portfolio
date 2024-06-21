@@ -3,42 +3,42 @@ import Fade from "react-reveal";
 
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import { styled } from "@mui/material/styles";
+// import { styled } from "@mui/material/styles";
 
 import { useInfos } from "../contexts/InfoProvider";
 
 import ProjectsComponents from "./ProjectsComponents";
 
-const ContainerImg = styled("div")(({ theme }) => ({
-  padding: "0 2rem",
-  flexBasis: "33%",
-  flexGrow: 0,
-  minWidth: "33%",
-  maxWidth: "33%",
-  [theme.breakpoints.down("md")]: {
-    flexBasis: "50%",
-    flexGrow: 0,
-    minWidth: "50%",
-    maxWidth: "50%",
-  },
-  [theme.breakpoints.down("sm")]: {
-    flexBasis: "100%",
-    flexGrow: 0,
-    minWidth: "100%",
-    maxWidth: "100%",
-  },
-}));
+// const ContainerImg = styled("div")(({ theme }) => ({
+//   padding: "0 2rem",
+//   flexBasis: "33%",
+//   flexGrow: 0,
+//   minWidth: "33%",
+//   maxWidth: "33%",
+//   [theme.breakpoints.down("md")]: {
+//     flexBasis: "50%",
+//     flexGrow: 0,
+//     minWidth: "50%",
+//     maxWidth: "50%",
+//   },
+//   [theme.breakpoints.down("sm")]: {
+//     flexBasis: "100%",
+//     flexGrow: 0,
+//     minWidth: "100%",
+//     maxWidth: "100%",
+//   },
+// }));
 
-const SlideShow = styled("div")(({ index, theme }) => ({
-  display: "inline-flex",
-  transform: `translate3d(${-index * 33}%, 0, 0)`,
-  [theme.breakpoints.down("md")]: {
-    transform: `translate3d(${-index * 50}%, 0, 0)`,
-  },
-  [theme.breakpoints.down("sm")]: {
-    transform: `translate3d(${-index * 100}%, 0, 0)`,
-  },
-}));
+// const SlideShow = styled("div")(({ index, theme }) => ({
+//   display: "inline-flex",
+//   transform: `translate3d(${-index * 33}%, 0, 0)`,
+//   [theme.breakpoints.down("md")]: {
+//     transform: `translate3d(${-index * 50}%, 0, 0)`,
+//   },
+//   [theme.breakpoints.down("sm")]: {
+//     transform: `translate3d(${-index * 100}%, 0, 0)`,
+//   },
+// }));
 
 const delay = 3.5; // in seconds
 
