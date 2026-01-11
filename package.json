@@ -2,7 +2,7 @@
   "name": "ana-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anac-mendes.github.io/new-portfolio",
+  "homepage": "https://anac-mendes.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.6",
