@@ -1,12 +1,13 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "portfolio",
   "private": true,
   "sideEffects": false,
   "type": "module",
   "homepage": "https://anac-mendes.github.io/portfolio",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "vite build && npm run build:html",
+    "build:html": "node scripts/generate-index.js",
     "deploy": "gh-pages -d .output/public",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
