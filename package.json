@@ -3,7 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "homepage": "https://anac-mendes.github.io/portfolio",
+  "homepage": "https://anac-mendes.github.io",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",

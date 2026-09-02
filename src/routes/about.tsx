@@ -2,8 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Download } from "lucide-react";
 import { PaperCard, SectionHeading, Pin, TapeStrip } from "@/components/paper";
 import { contact } from "@/lib/portfolio-content";
-
-const photo = "https://anac-mendes.github.io/portfolio/static/media/profilepic.0d42297bef85d6b59c03.png";
+import photo from "@/assets/photo.jpg";
 
 const title = "About Me — Marketing Coordinator Portfolio";
 const description =
