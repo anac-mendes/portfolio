@@ -4,6 +4,6 @@ import tsConfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/",
+  base: process.env["NODE_ENV"] === "production" ? "/portfolio/" : "/",
   plugins: [tailwindcss(), react(), tsConfigPaths()],
 });
